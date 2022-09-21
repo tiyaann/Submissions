@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- copy this xsd file from: https://docs.spring.io/spring-framework/docs/4.2.x/spring-framework-reference/html/xsd-configuration.html -->
+    
+    <!-- bean definitions here -->
+    
+    <bean id="obj" class="demo.HelloWorld"></bean>
+    
+    
+    
+    <!-- create marks object -->
+    <bean id="m" class="demo.Marks">
+    	<property name="phy" value="95"></property>
+    	<property name="chem" value="90"></property>
+    	<property name="maths" value="99"></property>
+    </bean>
+    
+    
+    
+    <!-- Create Student Object -->
+    <!-- injected the dependecy with the help of setter method -->
+    <bean id="s1" class="demo.Student" >
+    	<property name="id" value="1"></property>
+    	<property name="name" value="Yuvarani"></property>
+    	<property name="marks" ref="m"></property>
+    
+    </bean>
+    
+    
+
+</beans>
