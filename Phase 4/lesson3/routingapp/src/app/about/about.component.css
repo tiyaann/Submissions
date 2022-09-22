@@ -1,0 +1,21 @@
+h2{
+    background-color:blueviolet;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 900;
+    color:goldenrod;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+p{
+
+    color: navy;
+        text-indent: 30px;
+        text-transform: uppercase;
+        text-decoration-color: aqua;
+        
+      }
+
