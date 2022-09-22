@@ -1,0 +1,51 @@
+<div
+  class="container m-2 border justify-center"
+  style="width: 400px; background-color: rgb(180, 234, 142)"
+>
+  <form [formGroup]="signupForm" (ngSubmit)="onSubmit()">
+    <!-- UserName -->
+    <div class="row">
+      <div class="form-group p-2">
+        <label for="username">Username</label>
+        <input
+          type="text"
+          id="username"
+          class="form-control"
+          formControlName="username"
+        />
+        <span
+          class="small"
+          *ngIf="
+            !signupForm.get('username').valid &&
+            signupForm.get('username').touched
+          "
+          >Please enter a valid Username</span
+        >
+      </div>
+    </div>
+
+    <!-- Password -->
+    <div class="row">
+      <div class="form-group p-2">
+        <label for="password">Password</label>
+        <input
+          type="text"
+          id="password"
+          class="form-control"
+          formControlName="password"
+        />
+        <span
+          class="small"
+          *ngIf="
+            !signupForm.get('password').valid &&
+            signupForm.get('password').touched
+          "
+          >Please enter a valid Password</span
+        >
+      </div>
+    </div>
+
+    <!-- Submit Button -->
+    <button class="btn btn-primary m-2" type="submit">Submit</button>
+  </form>
+</div>
