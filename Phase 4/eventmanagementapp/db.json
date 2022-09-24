@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "firstName": "Yuvarani",
+      "lastName": "M",
+      "email": "yuvarani@gmail.com",
+      "mobile": "7809078967",
+      "salary": "67799"
+    },
+    {
+      "id": 3,
+      "firstName": "Vishnu",
+      "lastName": "Priya",
+      "email": "vp@gmail.com",
+      "mobile": "6769686756",
+      "salary": "90787"
+    },
+    {
+      "id": 4,
+      "firstName": "Manasa ",
+      "lastName": "Preeya",
+      "email": "Mp@gmail.com",
+      "mobile": "9798678532",
+      "salary": "67099"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
