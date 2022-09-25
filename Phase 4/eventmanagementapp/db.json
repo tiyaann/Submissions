@@ -1,28 +1,33 @@
 {
   "posts": [
     {
+      "id": 1,
+      "firstName": "Tiya",
+      "lastName": "ann",
+      "email": "tiya@gmail.com",
+      "mobile": "123456",
+      "salary": "90000"
+    },
+    {
       "id": 2,
-      "firstName": "Yuvarani",
-      "lastName": "M",
-      "email": "yuvarani@gmail.com",
-      "mobile": "7809078967",
-      "salary": "67799"
+      "firstName": "John",
+      "lastName": "Jacob",
+      "email": "john@gmail.com",
+      "mobile": "123456",
+      "salary": "90000"
     },
     {
       "id": 3,
-      "firstName": "Vishnu",
-      "lastName": "Priya",
+      "firstName": "Joe",
+      "lastName": "Siby",
       "email": "vp@gmail.com",
       "mobile": "6769686756",
       "salary": "90787"
     },
     {
-      "id": 4,
-      "firstName": "Manasa ",
-      "lastName": "Preeya",
-      "email": "Mp@gmail.com",
-      "mobile": "9798678532",
-      "salary": "67099"
+      "title": "1",
+      "content": "fg",
+      "id": 4
     }
   ],
   "comments": [],

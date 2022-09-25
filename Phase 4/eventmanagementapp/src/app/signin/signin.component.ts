@@ -26,7 +26,7 @@ export class SigninComponent implements OnInit {
 
     this.uemail = this.registerForm.get('uemail')?.value;
     this.upassword = this.registerForm.get('upassword')?.value;
-    if (this.uemail == 'yuvarani@gmail.com' && this.upassword == '666') {
+    if (this.uemail == 'tiyaann@gmail.com' && this.upassword == '123') {
      // alert("Form Submitted Successfully"+this.upassword);
       this.router.navigate(['dashboard']);
     } else {
