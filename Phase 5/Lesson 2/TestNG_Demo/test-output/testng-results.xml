@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-28T10:04:58 IST" name="Suite" finished-at="2022-09-28T10:04:58 IST" duration-ms="130">
+    <groups>
+    </groups>
+    <test started-at="2022-09-28T10:04:58 IST" name="SmokeTests" finished-at="2022-09-28T10:04:58 IST" duration-ms="130">
+      <class name="testpkg.ParamTest">
+        <test-method signature="applyForLoan(java.lang.String,int)[pri:0, instance:testpkg.ParamTest@2b6faea6]" started-at="2022-09-28T10:04:58 IST" name="applyForLoan" data-provider="getData" finished-at="2022-09-28T10:04:58 IST" duration-ms="26" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyForLoan -->
+        <test-method signature="applyForLoan(java.lang.String,int)[pri:0, instance:testpkg.ParamTest@2b6faea6]" started-at="2022-09-28T10:04:58 IST" name="applyForLoan" data-provider="getData" finished-at="2022-09-28T10:04:58 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[max]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[36]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyForLoan -->
+        <test-method signature="applyForLoan(java.lang.String,int)[pri:0, instance:testpkg.ParamTest@2b6faea6]" started-at="2022-09-28T10:04:58 IST" name="applyForLoan" data-provider="getData" finished-at="2022-09-28T10:04:58 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[will]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[45]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyForLoan -->
+      </class> <!-- testpkg.ParamTest -->
+    </test> <!-- SmokeTests -->
+  </suite> <!-- Suite -->
+</testng-results>

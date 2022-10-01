@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <parameter name="URL" value="xyz.com"></parameter>
+  <listeners>
+  	<listener class-name="TestListeners" />
+  </listeners>
+  <test thread-count="5" name="HomeLoanTests">
+    <classes>
+      <class name="loanapplication.HomeLoanApplicationTests"/>
+    </classes>
+  </test> <!-- Test -->
+    <test thread-count="5" name="PersonalLoanTests">
+    <classes>
+      <class name="loanapplication.PersonalLoanApplicationTests"/>
+    </classes>
+  </test> <!-- Test -->
+    <test thread-count="5" name="CarLoanTests">
+    <classes>
+      <class name="loanapplication.CarLoanApplicationTests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

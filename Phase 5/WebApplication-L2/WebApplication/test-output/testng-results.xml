@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-01T11:05:45 IST" name="Default suite" finished-at="2022-10-01T11:06:56 IST" duration-ms="70718">
+    <groups>
+    </groups>
+    <test started-at="2022-10-01T11:05:45 IST" name="Default test" finished-at="2022-10-01T11:06:56 IST" duration-ms="70718">
+      <class name="com.ecom.webapp.application">
+        <test-method is-config="true" signature="startbrowser()[pri:0, instance:com.ecom.webapp.application@333291e3]" started-at="2022-10-01T11:05:45 IST" name="startbrowser" finished-at="2022-10-01T11:05:51 IST" duration-ms="5466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startbrowser -->
+        <test-method signature="register()[pri:1, instance:com.ecom.webapp.application@333291e3]" started-at="2022-10-01T11:05:51 IST" name="register" finished-at="2022-10-01T11:06:24 IST" duration-ms="33630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ecom.webapp.application@333291e3]" started-at="2022-10-01T11:06:24 IST" name="closeBrowser" finished-at="2022-10-01T11:06:24 IST" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="startbrowser()[pri:0, instance:com.ecom.webapp.application@333291e3]" started-at="2022-10-01T11:06:24 IST" name="startbrowser" finished-at="2022-10-01T11:06:33 IST" duration-ms="8867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startbrowser -->
+        <test-method signature="login()[pri:2, instance:com.ecom.webapp.application@333291e3]" started-at="2022-10-01T11:06:33 IST" name="login" finished-at="2022-10-01T11:06:53 IST" duration-ms="20135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ecom.webapp.application@333291e3]" started-at="2022-10-01T11:06:53 IST" name="closeBrowser" finished-at="2022-10-01T11:06:56 IST" duration-ms="2441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.ecom.webapp.application -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
