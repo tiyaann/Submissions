@@ -30,7 +30,7 @@ public class application {
 	      Thread.sleep(5000);
 	      //wd.findElement(By.id("ap_phone_number")).sendKeys("1234567890");
 	      Thread.sleep(5000);
-	      wd.findElement(By.id("ap_email")).sendKeys("tiyaannsiby@gmail.com");
+	      wd.findElement(By.id("ap_email")).sendKeys("tiyaann@gmail.com");
 	      Thread.sleep(5000);
 	      wd.findElement(By.id("ap_password")).sendKeys("12345678");
 	      Thread.sleep(5000);
