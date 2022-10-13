@@ -1,0 +1,52 @@
+<table class="table table-bordered">
+  <thead>
+    <tr style="text-align: center; background-color: rgb(210, 210, 141)">
+      <th style="color: rgb(237, 53, 46)" class="alignment">First Name</th>
+      <th style="color: rgb(237, 53, 46)" class="alignment">Last Name</th>
+      <th style="color: rgb(237, 53, 46)" class="alignment">Phone Number</th>
+      <th style="color: rgb(237, 53, 46)" class="alignment">Address</th>
+      <th style="color: rgb(237, 53, 46)" class="alignment">Date of Birth</th>
+      <th style="color: rgb(237, 53, 46)" class="alignment">
+        Type of Verification Document
+      </th>
+      <th style="color: rgb(237, 53, 46)" class="alignment">
+        Verification ID No.
+      </th>
+      <th style="color: rgb(237, 53, 46)" class="alignment">Email</th>
+      <th style="color: rgb(237, 53, 46)" class="alignment">Create Account</th>
+      <th style="color: rgb(237, 53, 46)" class="alignment">
+        Cancel Account Creation
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let authorizeuser of authorizeusers">
+      <td class="alignment">{{ authorizeuser.fname }}</td>
+      <td class="alignment">{{ authorizeuser.lname }}</td>
+      <td class="alignment">{{ authorizeuser.phone }}</td>
+      <td class="alignment">{{ authorizeuser.address }}</td>
+      <td class="alignment">{{ authorizeuser.dob }}</td>
+      <td class="alignment">{{ authorizeuser.identityType }}</td>
+      <td class="alignment">{{ authorizeuser.identity }}</td>
+      <td class="alignment">{{ authorizeuser.email }}</td>
+      <td class="alignment">
+        <button
+          type="button"
+          class="btn btn-success"
+          (click)="authorizeAccount(authorizeuser.username)"
+        >
+          Create
+        </button>
+      </td>
+      <td class="alignment">
+        <button
+          type="button"
+          class="btn btn-danger"
+          (click)="rejectRequest(authorizeuser.username)"
+        >
+          Cancel
+        </button>
+      </td>
+    </tr>
+  </tbody>
+</table>

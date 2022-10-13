@@ -1,0 +1,32 @@
+<table class="table table-bordered-md" style="overflow-x: auto">
+  <thead>
+    <tr style="text-align: center; background-color: rgb(15, 59, 42)">
+      <th style="color: rgb(233, 241, 118)">Request Number</th>
+      <th style="color: rgb(233, 241, 118)">Type of Account</th>
+      <th style="color: rgb(233, 241, 118)">Account Number</th>
+      <th style="color: rgb(233, 241, 118)">Applied Date</th>
+      <th style="color: rgb(233, 241, 118)">Number of Pages</th>
+      <th style="color: rgb(233, 241, 118)">Confirm Request</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      *ngFor="let checkbookrequest of checkbookrequests | filter: term"
+      style="text-align: center"
+    >
+      <td>{{ checkbookrequest.id }}</td>
+      <td>{{ checkbookrequest.accType }}</td>
+      <td>{{ checkbookrequest.account }}</td>
+      <td>{{ checkbookrequest.date }}</td>
+      <td>{{ checkbookrequest.no_of_pages }}</td>
+      <td>
+        <button
+          (click)="confirmRequest(checkbookrequest.account)"
+          class="btn btn-primary"
+        >
+          Confirm Request
+        </button>
+      </td>
+    </tr>
+  </tbody>
+</table>
